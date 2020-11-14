@@ -164,9 +164,11 @@ a {
 
 .local-nav a {
     display: flex;
+    /* height: 64px; */
     flex-direction: column;
     /* 侧轴居中对齐 */
     align-items: center;
+    /* justify-content: center; */
 }
 
 .local-nav li [class^="local-nav-icon"] {
